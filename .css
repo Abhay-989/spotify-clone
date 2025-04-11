@@ -244,7 +244,6 @@ body {
   background: linear-gradient(to bottom right, #354467, #121212);
 }
 .center-nav {
-  position: sticky;
   display: flex;
   height: 64px;
   background: linear-gradient(to bottom right, #354467, #121212);
@@ -496,4 +495,31 @@ margin: 15px;
   flex-direction: row;
   justify-content: center;
   margin-top:3vh ;
+}
+
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+z-index: 2;
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #444;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 300px;
+}
+
+.results-list li {
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.results-list li:hover {
+  background-color: #333;
+}
+.divider{
+  display: block;
 }
